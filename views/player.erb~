@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+        <style type="text/css" media="screen">@import "/stylesheets/iui.css";</style>
+        <script type="application/x-javascript" src="/javascripts/iui.js"></script>
+    </head>
+    <body>
+        <div class="toolbar">
+            <h1 id="pageTitle"></h1>
+        </div>
+        <%= @profile %>
+    </body>
+</html>
